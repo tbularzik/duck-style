@@ -1,0 +1,14 @@
+{
+  "name": "Duck Format",
+  "version": "1.0",
+  "description": "Reformats Duck Duck Go homepage",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://duckduckgo.com/*", "http://duckduckgo.com/*"
+      ],
+	  "css": ["duckstyle.css"]
+    }
+  ] 
+}
